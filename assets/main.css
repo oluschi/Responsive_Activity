@@ -1,0 +1,61 @@
+
+/* If the browser window is smaller than 500px, the background color will change to lightblue: */
+
+body {
+	background-color:black;
+}
+
+h1 {
+	font-family:Bebas Neue;
+	color:#00FF00;
+	font-size:10vw;
+	font-style: italic;
+	-webkit-text-stroke: 1px red;
+   
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+p{
+	font-family: sans-serif;
+	color:white;
+	font-size:3vw;
+
+
+
+}
+
+mark{ 
+	color: #00FF00;
+	background-color:black;
+ }
+
+@media (max-width: 800px) {
+  body {
+    background-color: #00FF00;
+  }
+
+  h1 {
+  	font-family: Bebas Neue;
+  	color: white;
+  	font-size: 8vw;
+  	background-color:black;
+  	text-align: center;
+
+  }
+
+  p{
+  	color:white;
+  	background-color:black;
+  	text-align: center;
+  	font-size:4vw;
+  }
+
+
+
+}
